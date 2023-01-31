@@ -2,7 +2,16 @@
 
 An artist's color name search tool - given a csv of colors, find the best matching color when considering tint, shade, or tone (see [this page](https://www.dunnedwards.com/pros/blog/color-terminology-hues-tints-shades-and-tones/) for a nice short definition of those color transforms, from an artist's perspective).
 
+## caveat emptor
+This project stands on the shoulders of giants. Notably, required libraries are [scikit-learn](https://scikit-learn.org) and [scikit-image](https://scikit-image.org/). Also, this library won't do anything if you don't give it colors to compare to. There are valuable suggested resources below, including meodai's great project (see [resources](#resources) section) 
+
+Despite all the great starting material, ther are issues.
+
 I could use help on the package setup (and in general).
+
+There is no testing, except a notebook.
+
+There is a real chance that two colors will be the same distance when modified by different offsets. Ideally we would pick a minimum first by deltaE (or such) and second by offset: minimizing both. However I am able to reproduce in the notebook such a situation, but the optimizer finds one solution but not the other. because of this, it reports the wrong one (the one that requires more offset).
 
 ## concept
 I was inspired by way artyclick shows colors and allows searching for them. If you look at an individual color, for example [mauve](https://colors.artyclick.com/color-names-dictionary/color-names/mauve-color) you'll notice that it prominently displays the shades, tints, and tones of the color, rather like an artist might like. If you [ask it](https://colors.artyclick.com/color-name-finder/) for the name of a color, it will use a hidden unordered list of about a thousand color names, and some javascript to find the nearest colorname to the color you chose. In fact it will also show alternatives.
