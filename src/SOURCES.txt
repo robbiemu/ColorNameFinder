@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/ColorNameFinder.egg-info/PKG-INFO
+src/ColorNameFinder.egg-info/SOURCES.txt
+src/ColorNameFinder.egg-info/clamp.py
+src/ColorNameFinder.egg-info/color_name_finder.py
+src/ColorNameFinder.egg-info/color_transforms.py
+src/ColorNameFinder.egg-info/dependency_links.txt
+src/ColorNameFinder.egg-info/hex_tools.py
+src/ColorNameFinder.egg-info/top_level.txt

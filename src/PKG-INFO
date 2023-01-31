@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ColorNameFinder
+Version: 0.0.1
+Summary: An artist's color name search tool - given a csv of colors, find the best matching color when considering tint, shade, or tone
+Author-email: Robert Collins <roberto.tomas.cuentas@gmail.com>
+Project-URL: Homepage, https://github.com/robbiemu/ColorNameFinder
+Project-URL: Bug Tracker, https://github.com/robbiemu/ColorNameFinder/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ColorNameFinder
+
+An artist's color name search tool - given a csv of colors, find the best matching color when considering tint, shade, or tone.
