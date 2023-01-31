@@ -1,6 +1,6 @@
 # ColorNameFinder
 
-An artist's color name search tool - given a csv of colors, find the best matching color when considering tint, shade, or tone.
+An artist's color name search tool - given a csv of colors, find the best matching color when considering tint, shade, or tone (see [this page](https://www.dunnedwards.com/pros/blog/color-terminology-hues-tints-shades-and-tones/) for a nice short definition of those color transforms, from an artist's perspective).
 
 I could use help on the package setup (and in general).
 
